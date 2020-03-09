@@ -1,0 +1,22 @@
+import java.util.*;
+public class encript{
+    public static void main (String[] args){
+    Scanner entrada = new Scanner(System.in);
+    double num,d1,d2,d3,d4,D1,D2,D3,D4;
+   num = entrada.nextDouble();
+   d1 = num/1000;
+    d2 = num/1000 ;
+    d3 = num/100%;
+    d4 = num/10%;
+  
+    D1 = d1 + 1;
+    D2 = d2 + 1;
+    D3 = d3 + 1;
+    D4 = d4 + 1;
+
+    System.out.print(D1+D2+D3+D4);
+    
+    
+    
+}
+}
